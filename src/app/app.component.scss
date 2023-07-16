@@ -307,10 +307,12 @@
   transition: opacity 0.3s ease-out;
 }
 
-.loader lottie-player {
-  display: block;
-  width: 300px;
-  height: 300px;
+.loader {
+  lottie-player {
+    display: block;
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .loader.showed {
