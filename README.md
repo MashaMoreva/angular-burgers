@@ -1,27 +1,32 @@
-# AngularBurgers
+# Burger House
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+Этот проект представляет собой веб-приложение для Burger House - виртуального ресторана с бургерами. Приложение позволяет пользователям просматривать меню, оформлять заказы и предоставляет информацию о ресторане.
 
-## Development server
+#### Функционал:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Адаптивный дизайн позволяет пользоваться приложением на любом устройстве
+- Раздел "Меню бургеров" представляет собой полное меню с разнообразными видами бургеров, доступных в Burger House. Каждый бургер сопровождается изображением, названием, описанием, ценой и весом. Вы сможете легко ознакомиться со всеми предложениями и выбрать свой идеальный бургер. Просто кликните на бургер, который вас заинтересовал, и нажмите кнопку "Заказать", чтобы перейти к разделу оформления заказа
+- Оформление заказа:
+  1. выберите желаемый бургер из меню
+  2. укажите свое имя и контактный телефон
+  3. после заполнения данных нажмите кнопку "Оформить заказ"
+  4. если введенные данные являются корректными, ваш заказ будет отправлен на сервер; в случае успешной обработки заказа вы получите соответствующее уведомление, если возникнет ошибка вы будете проинформированы и об этом
+- Приложение поддерживает различные валюты
 
-## Code scaffolding
+#### Стек технологий:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular - фреймворк для разработки веб-приложения
+- SСSS - препроцессор CSS, который предоставляет удобные возможности для стилизации и оформления интерфейса
 
-## Build
+#### Установа | разработка | запуск:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- клонирование репозитория: `git clone https://github.com/MashaMoreva/angular-burgers.git`
+- переход в папку проекта; `cd angular-burgers`
+- установка необходимых зависимостей: `npm install`
+- запуск проекта: `ng serve` (приложение будет доступно по адресу: http://localhost:4200/)
+- сборка проекта: `ng build` (собранные файлы будут находиться в папке dist/)
 
-## Running unit tests
+#### Ссылки:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Проект на GitHub Pages](https://mashamoreva.github.io/angular-burgers/)
+- [Макет в графическом редакторе Figma](https://www.figma.com/file/w54ClhIRA6htWO6oiaDz6U/landing?type=design&node-id=0-1&mode=design&t=S46b5G6vlMeiHNiy-0)
